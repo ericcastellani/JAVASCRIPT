@@ -77,7 +77,20 @@ var nbRepas = 0, repas = "biscuit"; //On définit les variables
         //Les événements
 
 var bouton = document.getElementById("bouton"); //On prépare une variable qui cible le bouton
-    function myFunction() {    
-        document.getElementById("demo").innerHTML = "Hello World";//On prépare la fonction qui va permettre d’insérer du texte dans la balise «p»}
-            bouton.addEventListener('click', myFunction, false);//On met en place le «listener» qui va attendre le clic sur le bouton pour déclencher la fonction
-    }
+function myFunction() {    
+    document.getElementById("demo").innerHTML = "Hello World";//On prépare la fonction qui va permettre d’insérer du texte dans la balise «p»}
+}
+bouton.addEventListener('click', myFunction, false);//On met en place le «listener» qui va attendre le clic sur le bouton pour déclencher la fonction
+    
+        //Les opérateurs
+var a = 5;
+var b = 4;
+console.log(a+b); 
+a += b;console.log(a); 
+var a = 5;
+var b = 4;
+console.log(a*b); 
+a *= b;
+console.log(a); 
+var a = 5;
+var b = 'du texte';console.log(a+b); //Renvoie «5du texte»
